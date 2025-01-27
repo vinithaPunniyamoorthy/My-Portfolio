@@ -1,0 +1,63 @@
+.gradientBlur{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  filter: blur(160px);
+  z-index: 2;
+}
+
+.profile{
+  background: url('/img/dp.jpg') no-repeat;
+  background-size: cover;
+  background-color: #444444;
+  background-position: center;
+  border-radius:15px;
+}
+
+.links{
+  position: absolute;
+  bottom:0;
+  right: 0;
+  margin-bottom: 50px;
+}
+
+.lineStyle1{
+  border-left: 2px solid;
+  height: 100px;
+}
+.lineStyle2{
+  position: absolute;
+  left:0;
+  border-bottom: 2px solid;
+  width: 70%;
+}
+
+.lineStyle2::before{
+  content: '';
+  position: absolute;
+  width:15px;
+  height: 15px;
+  border-radius: 50%;
+  top:-7px;
+  right:0;
+  background-color: #56E1E1;
+}
+
+.lineStyle3{
+  position: absolute;
+  right:0;
+  border-bottom: 2px solid;
+  width: 70%;
+}
+
+.lineStyle3::before{
+  content: '';
+  position: absolute;
+  width:15px;
+  height: 15px;
+  border-radius: 50%;
+  top:-7px;
+  left:0;
+  background-color: #56E1E1;
+}
